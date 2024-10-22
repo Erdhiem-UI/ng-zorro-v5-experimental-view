@@ -1,0 +1,90 @@
+:root {
+    --ant-border-radius: 6px;
+    --ant-border-radius-xs: 2px;
+    --ant-border-radius-sm: 4px;
+    --ant-border-radius-lg: 8px;
+    --ant-skeleton-block-radius: 4px;
+    --ant-padding-xxs: 4px;
+    --ant-padding-xs: 8px;
+    --ant-padding-sm: 12px;
+    --ant-padding: 16px;
+    --ant-padding-md: 20px;
+    --ant-padding-lg: 24px;
+    --ant-padding-xl: 32px;
+    --ant-dropdown-padding-block: 5px;
+    --ant-control-padding-horizontal: 12px;
+    --ant-segmented-track-padding: 2px;
+}
+
+.ant-btn,
+.ant-picker,
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-select-single .ant-select-selector,
+.ant-segmented {
+    border-radius: var(--ant-border-radius) !important;
+}
+
+.data-cell,
+.data-cell .info-wrapper,
+.ant-card,
+.ant-picker-dropdown .ant-picker-panel-container,
+.ant-btn-lg,
+.ant-descriptions .ant-descriptions-view,
+.ant-collapse,
+.ant-dropdown .ant-dropdown-menu,
+.ant-dropdown-menu-submenu .ant-dropdown-menu,
+.ant-modal .ant-modal-content,
+.ant-alert {
+    border-radius: var(--ant-border-radius-lg) !important;
+}
+
+.ant-tag,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title,
+.ant-segmented .ant-segmented-item,
+.ant-segmented .ant-segmented-thumb,
+.ant-checkbox-inner {
+    border-radius: var(--ant-border-radius-sm) !important;
+}
+
+.ant-skeleton .ant-skeleton-content .ant-skeleton-paragraph > li {
+    border-radius: var(--ant-skeleton-block-radius) !important;
+}
+
+.ant-collapse > .ant-collapse-item:last-child,
+.ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+    border-radius: 0 0 var(--ant-border-radius-lg) var(--ant-border-radius-lg) !important;
+}
+
+.ant-collapse .ant-collapse-item:last-child > .ant-collapse-content {
+    border-radius: 0 0 var(--ant-border-radius-lg) var(--ant-border-radius-lg) !important;
+}
+
+.ant-modal .ant-modal-header {
+    border-radius: var(--ant-border-radius-lg) var(--ant-border-radius-lg) 0 0;
+}
+
+ui-content-wrapper > div {
+    border-radius: var(--ant-border-radius-lg) !important;
+}
+
+.ant-dropdown .ant-dropdown-menu,
+.ant-dropdown-menu-submenu .ant-dropdown-menu {
+    padding: var(--ant-padding-xxs) !important;
+    border-radius: var(--ant-border-radius-lg) !important;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
+    padding: var(--ant-dropdown-padding-block) var(--ant-control-padding-horizontal) !important;
+    border-radius: var(--ant-border-radius-sm) !important;
+}
+
+.ant-segmented {
+    padding: 3px !important;
+}

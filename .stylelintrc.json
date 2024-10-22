@@ -1,0 +1,134 @@
+{
+    "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-rational-order",
+        "stylelint-use-logical-spec",
+        "stylelint-config-prettier-scss"
+    ],
+    "plugins": ["stylelint-use-logical-spec"],
+    "rules": {
+        "plugin/rational-order": [
+            true,
+            {
+                "border-in-box-model": true,
+                "empty-line-between-groups": true
+            }
+        ],
+        "liberty/use-logical-spec": "always",
+
+        "no-descending-specificity": true,
+        "declaration-block-no-duplicate-custom-properties": true,
+        "declaration-block-no-duplicate-properties": true,
+        "font-family-no-duplicate-names": true,
+        "keyframe-block-no-duplicate-selectors": true,
+        "no-duplicate-at-import-rules": true,
+        "no-duplicate-selectors": true,
+
+        "block-no-empty": true,
+        "comment-no-empty": true,
+        "no-empty-source": false,
+
+        "color-no-invalid-hex": true,
+        "function-calc-no-unspaced-operator": true,
+        "keyframe-declaration-no-important": true,
+        "named-grid-areas-no-invalid": true,
+        "no-invalid-double-slash-comments": true,
+        "no-invalid-position-at-import-rule": true,
+        "string-no-newline": true,
+
+        "no-irregular-whitespace": true,
+
+        "custom-property-no-missing-var-function": true,
+        "font-family-no-missing-generic-family-keyword": true,
+
+        "function-linear-gradient-no-nonstandard-direction": true,
+
+        "declaration-block-no-shorthand-property-overrides": true,
+
+        "selector-anb-no-unmatchable": true,
+
+        "annotation-no-unknown": true,
+        "at-rule-no-unknown": true,
+        "declaration-property-value-no-unknown": true,
+        "function-no-unknown": true,
+        "media-feature-name-no-unknown": true,
+        "media-feature-name-value-no-unknown": true,
+        "no-unknown-animations": true,
+        "property-no-unknown": true,
+        "selector-pseudo-class-no-unknown": true,
+        "selector-pseudo-element-no-unknown": [
+            true,
+            {
+                "ignorePseudoElements": ["ng-deep"]
+            }
+        ],
+        "selector-type-no-unknown": [
+            true,
+            {
+                "ignoreTypes": ["/^ui-/", "::ng-host", "/^ng-/", "/^feature-/", "/^lib-/"]
+            }
+        ],
+        "unit-no-unknown": true,
+
+        "color-hex-alpha": "never",
+        "color-named": "never",
+        "color-no-hex": true,
+
+        "declaration-no-important": true,
+        "declaration-property-unit-allowed-list": {
+            "/^animation/": "ms",
+            "line-height": ["px", "rem"],
+            "/^border-width/": ["px"],
+            "/^padding|^gap|^width|^height|^inline|^block/": ["rem", "%", "vw", "vh", "ch"]
+        },
+        "declaration-property-unit-disallowed-list": {
+            "font-size": ["px"]
+        },
+
+        "function-disallowed-list": ["rgb", "hwb", "lch"],
+
+        "length-zero-no-unit": true,
+
+        "media-feature-name-no-vendor-prefix": true,
+
+        "value-no-vendor-prefix": true,
+
+        "function-name-case": "lower",
+        "selector-type-case": "lower",
+        "value-keyword-case": "lower",
+
+        "at-rule-empty-line-before": [
+            "always",
+            {
+                "ignore": ["first-nested"],
+                "except": ["after-same-name"]
+            }
+        ],
+        "comment-empty-line-before": "always",
+        "declaration-empty-line-before": null,
+        "rule-empty-line-before": null,
+
+        "declaration-block-single-line-max-declarations": 1,
+        "number-max-precision": 2,
+        "selector-max-universal": 1,
+
+        "alpha-value-notation": "number",
+        "color-function-notation": "modern",
+        "font-weight-notation": "numeric",
+        "hue-degree-notation": "angle",
+        "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
+        "media-feature-range-notation": "prefix",
+        "selector-not-notation": "simple",
+        "selector-pseudo-element-colon-notation": "double",
+
+        "font-family-name-quotes": "always-where-recommended",
+        "selector-attribute-quotes": "always",
+
+        "declaration-block-no-redundant-longhand-properties": true,
+        "shorthand-property-no-redundant-values": true,
+
+        "number-leading-zero": "always",
+
+        "unit-case": "lower"
+    }
+}

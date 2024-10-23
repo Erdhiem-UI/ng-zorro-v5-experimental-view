@@ -1,0 +1,11 @@
+:host {
+    ::ng-deep {
+        nz-transfer {
+            inline-size: 100%;
+
+            nz-transfer-list {
+                flex: 1;
+            }
+        }
+    }
+}

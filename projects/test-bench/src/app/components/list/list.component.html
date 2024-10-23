@@ -1,0 +1,10 @@
+<card-wrapper title="List">
+    <nz-list nzBordered nzHeader="Header" nzFooter="Footer">
+        @for (item of data; track item) {
+            <nz-list-item>
+                <span nz-typography><mark>[ITEM]</mark></span>
+                {{ item }}
+            </nz-list-item>
+        }
+    </nz-list>
+</card-wrapper>

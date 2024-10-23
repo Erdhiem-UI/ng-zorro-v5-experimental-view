@@ -42,7 +42,7 @@
             },
             "root": "projects/test-bench",
             "sourceRoot": "projects/test-bench/src",
-            "prefix": "app",
+            "prefix": "ui",
             "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
@@ -53,8 +53,21 @@
                         "polyfills": ["zone.js"],
                         "tsConfig": "projects/test-bench/tsconfig.app.json",
                         "inlineStyleLanguage": "scss",
-                        "assets": ["projects/test-bench/src/favicon.ico", "projects/test-bench/src/assets"],
-                        "styles": ["projects/test-bench/src/styles.scss"],
+                        "assets": [
+                            "projects/test-bench/src/favicon.ico",
+                            "projects/test-bench/src/assets",
+                            {
+                                "glob": "**/*",
+                                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                                "output": "/assets/"
+                            }
+                        ],
+                        "styles": [
+                            "projects/test-bench/src/styles.scss",
+                            "node_modules/ng-zorro-antd/ng-zorro-antd.variable.min.css",
+                            "node_modules/ng-zorro-antd/ng-zorro-antd.variable.min.css",
+                            "dist/ng-zorro-v5-experimental-view/src/styles/ant-design-v5.css"
+                        ],
                         "scripts": []
                     },
                     "configurations": {

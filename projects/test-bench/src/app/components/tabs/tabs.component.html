@@ -1,0 +1,13 @@
+<card-wrapper title="Tabs">
+    <nz-tabset nzType="card">
+        @for (tab of tabs; track tab) {
+            <nz-tab [nzTitle]="'Tab' + tab">Content of Tab Pane {{ tab }}</nz-tab>
+        }
+    </nz-tabset>
+
+    <nz-tabset>
+        @for (tab of tabs; track tab) {
+            <nz-tab [nzTitle]="'Tab ' + tab">Content of tab {{ tab }}</nz-tab>
+        }
+    </nz-tabset>
+</card-wrapper>

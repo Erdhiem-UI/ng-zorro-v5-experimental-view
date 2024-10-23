@@ -1,0 +1,13 @@
+:host {
+    ::ng-deep {
+        nz-card {
+            inline-size: min(70vw, 100%);
+            .ant-card-body {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+        }
+    }
+}

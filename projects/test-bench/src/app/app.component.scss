@@ -1,0 +1,13 @@
+:host {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.6rem;
+        gap: 2rem;
+
+        > * {
+            inline-size: min(70vw, 100%);
+        }
+    }
+}

@@ -1,0 +1,14 @@
+:host {
+    ::ng-deep {
+        nz-segmented {
+            &:first-of-type {
+                inline-size: 100%;
+            }
+        }
+
+        .ant-card-body {
+            flex-direction: column;
+            align-items: flex-start !important;
+        }
+    }
+}

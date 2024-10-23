@@ -1,0 +1,20 @@
+<card-wrapper title="Input">
+    <input nz-input placeholder="Basic usage" type="number" />
+
+    <div>
+        <nz-input-group nzAddOnBefore="Http://" nzAddOnAfter=".com">
+            <input type="text" nz-input />
+        </nz-input-group>
+    </div>
+
+    <div>
+        <nz-input-group nzSearch [nzAddOnAfter]="suffixIconButton">
+            <input type="text" nz-input placeholder="input search text" />
+        </nz-input-group>
+        <ng-template #suffixIconButton>
+            <button nz-button nzType="primary" nzSearch><span nz-icon nzType="search"></span></button>
+        </ng-template>
+    </div>
+
+    <textarea rows="4" nz-input placeholder="ant design v5"></textarea>
+</card-wrapper>

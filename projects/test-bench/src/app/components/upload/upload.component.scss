@@ -1,0 +1,17 @@
+:host {
+    ::ng-deep {
+        .main-upload {
+            flex: 1;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .ant-card-body {
+            align-items: flex-start !important;
+        }
+    }
+}

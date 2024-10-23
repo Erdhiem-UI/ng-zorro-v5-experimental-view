@@ -1,0 +1,10 @@
+<card-wrapper title="Transfer">
+    <nz-transfer
+        [nzDataSource]="list"
+        [nzDisabled]="disabled"
+        [nzTitles]="['Source', 'Target']"
+        (nzSelectChange)="select($event)"
+        [nzSelectedKeys]="['0', '2', '3']"
+        (nzChange)="change($event)"
+    ></nz-transfer>
+</card-wrapper>

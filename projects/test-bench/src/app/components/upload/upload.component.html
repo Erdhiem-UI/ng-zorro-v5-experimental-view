@@ -1,0 +1,55 @@
+<card-wrapper title="Upload">
+    <nz-upload
+        class="main-upload"
+        nzType="drag"
+        [nzMultiple]="true"
+        nzAction="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+        (nzChange)="handleChange($event)"
+    >
+        <p class="ant-upload-drag-icon">
+            <span nz-icon nzType="inbox"></span>
+        </p>
+        <p class="ant-upload-text">Click or drag file to this area to upload</p>
+        <p class="ant-upload-hint">
+            Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files
+        </p>
+    </nz-upload>
+
+    <div class="row">
+        <nz-upload
+            nzAction="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+            [nzHeaders]="{authorization: 'authorization-text'}"
+            (nzChange)="handleChange($event)"
+        >
+            <button nz-button>
+                <span nz-icon nzType="upload"></span>
+                Click to Upload
+            </button>
+        </nz-upload>
+
+        <div class="clearfix">
+            <nz-upload
+                nzAction="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+                nzListType="picture-card"
+                [(nzFileList)]="fileList"
+                [nzShowButton]="fileList.length < 8"
+                [nzPreview]="handlePreview"
+            >
+                <div>
+                    <span nz-icon nzType="plus"></span>
+                    <div style="margin-top: 8px">Upload</div>
+                </div>
+            </nz-upload>
+            <nz-modal
+                [nzVisible]="previewVisible"
+                [nzContent]="modalContent"
+                [nzFooter]="null"
+                (nzOnCancel)="previewVisible = false"
+            >
+                <ng-template #modalContent>
+                    <img [src]="previewImage" [ngStyle]="{width: '100%'}" />
+                </ng-template>
+            </nz-modal>
+        </div>
+    </div>
+</card-wrapper>

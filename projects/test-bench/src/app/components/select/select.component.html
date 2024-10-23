@@ -1,0 +1,13 @@
+<card-wrapper title="Select">
+    <nz-select ngModel="lucy">
+        <nz-option nzValue="jack" nzLabel="Jack"></nz-option>
+        <nz-option nzValue="lucy" nzLabel="Lucy"></nz-option>
+        <nz-option nzValue="disabled" nzLabel="Disabled" nzDisabled></nz-option>
+    </nz-select>
+
+    <nz-select [(ngModel)]="multipleValue" nzMode="multiple" nzPlaceHolder="Please select">
+        @for (option of listOfOption; track option.value) {
+            <nz-option [nzLabel]="option.label" [nzValue]="option.value"></nz-option>
+        }
+    </nz-select>
+</card-wrapper>

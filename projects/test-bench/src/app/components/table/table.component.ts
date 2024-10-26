@@ -71,7 +71,11 @@ export class TableComponent implements OnInit {
     scrollX: string | null = null;
     scrollY: string | null = null;
     settingValue: Setting;
-    listOfSwitch = [{name: 'Bordered', formControlName: 'bordered'}];
+    listOfSwitch = [
+        {name: 'Bordered', formControlName: 'bordered'},
+        {name: 'Title', formControlName: 'title'},
+        {name: 'Footer', formControlName: 'footer'}
+    ];
     listOfRadio = [];
 
     currentPageDataChange($event: readonly ItemData[]): void {

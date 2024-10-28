@@ -1,5 +1,5 @@
 {
-    "name": "ng-zorro-v5-experimental-view",
+    "name": "@Erdhiem-UI/ng-zorro-v5-experimental-view",
     "version": "0.0.0-NOT-USED",
     "license": "MIT",
     "description": "Ant version 5 design for ng-zorro library",
@@ -22,6 +22,8 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build ng-zorro-v5-experimental-view --configuration development",
+        "prepublishOnly": "npm run build",
+        "release": "standard-version && npm publish --access public",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
         "lint": "npm run lint:script && npm run lint:style",

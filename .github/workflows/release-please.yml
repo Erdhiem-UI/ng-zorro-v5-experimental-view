@@ -1,0 +1,19 @@
+name: Release Please
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Release Please
+              uses: google-github-actions/release-please-action@v3
+              with:
+                  release-type: typescript # Adjust this based on your project type (e.g., `go`, `java`, etc.)
+                  package-name: '@Erdhiem-UI/ng-zorro-v5-experimental-view'

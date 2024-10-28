@@ -66,7 +66,7 @@
                             "projects/test-bench/src/styles.scss",
                             "node_modules/ng-zorro-antd/ng-zorro-antd.variable.min.css",
                             "node_modules/ng-zorro-antd/ng-zorro-antd.variable.min.css",
-                            "dist/ng-zorro-v5-experimental-view/src/styles/ant-design-v5.css"
+                            "node_modules/ng-zorro-v5-experimental-view/src/styles/ant-design-v5.css"
                         ],
                         "scripts": []
                     },

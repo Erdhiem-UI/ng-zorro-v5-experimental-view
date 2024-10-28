@@ -1,27 +1,61 @@
-# NgZorroV5ExperimentalView
+<p align="center">
+    <img width="230" src="https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+<h1 align="center">
+NG-ZORRO V5 Experimental View
+</h1>
 
-## Development server
+<div align="center">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5
 
-## Code scaffolding
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[![](https://user-images.githubusercontent.com/507615/209472919-6f7e8561-be8c-4b0b-9976-eb3c692aa20a.png)](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view)
 
-## Build
+## ✨ Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+-   **Unofficial Implementation of Ant Design V5:** Experience the latest features and improvements while still using NG-ZORRO.
+-   **Compatibility with NG-ZORRO V4 Components:** All components from NG-ZORRO based on Ant Design V4 are designed to be compatible, ensuring a smooth transition.
+-   **User-Friendly:** Designed with simplicity in mind, making it easy to integrate and use in your projects.
 
-## Running unit tests
+## ☀️ License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[MIT](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/LICENSE)
 
-## Running end-to-end tests
+## 📦 Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Important:** This is an unofficial version of NG-ZORRO. It allows users of older versions based on Ant Design V4 to migrate to version 5 seamlessly.
 
-## Further help
+```bash
+$ npm install erd/rrere
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🔨 Usage
+
+Using the NG-ZORRO V5 Experimental View is straightforward. Follow these steps to integrate it into your Angular application:
+
+1. **Update your `angular.json` file:**
+   In the `"styles"` array, ensure you import the version 5 styles after the original styles. Add the following lines:
+
+```diff
+{
+  "styles": [
+    "node_modules/ng-zorro-antd/ng-zorro-antd.min.css", // should already exist
+    "node_modules/ng-zorro-v5-experimental-view/src/styles/ant-design-v5.css" // new
+  ]
+}
+```
+
+## 🤝 Contributing
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/pulls)
+
+We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/pulls) or as [GitHub issues](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/issues).
+
+> If you're new to posting issues, we ask that you read [_How To Ask Questions The Smart Way_](http://www.catb.org/~esr/faqs/smart-questions.html) (**This guide does not provide actual support services for this project!**), [How to Ask a Question in Open Source Community](https://github.com/seajs/seajs/issues/545) and [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) prior to posting. Well written bug reports help us help you!
+
+🎉 **Enjoying NG-ZORRO V5 Experimental View?**  
+**🌟 Give our repo a star!** ⭐ :arrow_up:  
+Help us shine brighter in the open-source community! Your support means everything! 🙌

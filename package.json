@@ -1,6 +1,23 @@
 {
     "name": "ng-zorro-v5-experimental-view",
-    "version": "0.0.0",
+    "version": "0.0.0-NOT-USED",
+    "license": "MIT",
+    "description": "Ant version 5 design for ng-zorro library",
+    "keywords": [
+        "Ng-zorro",
+        "Ng zorro",
+        "Ant Design",
+        "Ant Design Version 5",
+        "Erdhiem-UI"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/issues"
+    },
+    "homepage": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view#readme",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",

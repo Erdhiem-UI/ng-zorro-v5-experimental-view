@@ -25,7 +25,7 @@
         "build:development": "ng build ng-zorro-v5-experimental-view --configuration development",
         "build:production": "ng build ng-zorro-v5-experimental-view --configuration production",
         "publish": " npm run prepublishOnly && cd .\\dist\\ng-zorro-v5-experimental-view\\ && npm publish  --access public",
-        "prepublishOnly": "npm run build:production",
+        "prepublishOnly": "npm run build:production && npm run prepare-library-readme",
         "release": "standard-version && npm publish --access public",
         "watch": "ng build:development --watch --configuration development",
         "test": "ng test",
@@ -36,6 +36,7 @@
         "lint-fix:script": "npm run lint:script -- --fix",
         "lint-fix:style": "npm run lint:style -- --fix",
         "pre-commit": "tsc -p libs/tsconfig.json --noEmit && lint-staged",
+        "prepare-library-readme": "node scripts/generate-library-readme.js",
         "prepare": "husky install"
     },
     "private": false,

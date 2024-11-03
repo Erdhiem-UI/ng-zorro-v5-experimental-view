@@ -543,4 +543,3 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,angular,webstorm+all,visualstudiocode
 
 .angular
-/projects/ng-zorro-v5-experimental-view/README.md

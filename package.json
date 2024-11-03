@@ -38,7 +38,7 @@
         "pre-commit": "tsc -p libs/tsconfig.json --noEmit && lint-staged",
         "prepare": "husky install"
     },
-    "private": true,
+    "private": false,
     "dependencies": {
         "@angular/animations": "^17.0.0",
         "@angular/common": "^17.0.0",

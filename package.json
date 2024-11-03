@@ -1,6 +1,6 @@
 {
-    "name": "@Erdhiem-UI/ng-zorro-v5-experimental-view",
-    "version": "1.6.0",
+    "name": "@erdhiem-ui/ng-zorro-v5-experimental-view",
+    "version": "0.0.0-NOT-USED",
     "license": "MIT",
     "description": "Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5",
     "author": "ParsaArvaneh, ParsaArvanehPA, Parsa.arvaneh@gmail.com",
@@ -21,11 +21,11 @@
     "homepage": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view#readme",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve",
+        "start": "ng serve test-bench",
         "build:development": "ng build ng-zorro-v5-experimental-view --configuration development",
         "build:production": "ng build ng-zorro-v5-experimental-view --configuration production",
-        "publish": "cd .\\dist\\ng-zorro-v5-experimental-view\\ && npm publish  --access public",
-        "prepublishOnly": "npm run build:production",
+        "publish": " npm run prepublishOnly && cd .\\dist\\ng-zorro-v5-experimental-view\\ && npm publish  --access public",
+        "prepublishOnly": "npm run build:production && npm run prepare-library-readme",
         "release": "standard-version && npm publish --access public",
         "watch": "ng build:development --watch --configuration development",
         "test": "ng test",
@@ -36,9 +36,13 @@
         "lint-fix:script": "npm run lint:script -- --fix",
         "lint-fix:style": "npm run lint:style -- --fix",
         "pre-commit": "tsc -p libs/tsconfig.json --noEmit && lint-staged",
+        "prepare-library-readme": "node scripts/generate-library-readme.js",
         "prepare": "husky install"
     },
     "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
     "dependencies": {
         "@angular/animations": "^17.0.0",
         "@angular/common": "^17.0.0",

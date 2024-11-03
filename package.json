@@ -24,7 +24,7 @@
         "start": "ng serve",
         "build:development": "ng build ng-zorro-v5-experimental-view --configuration development",
         "build:production": "ng build ng-zorro-v5-experimental-view --configuration production",
-        "publish": "cd .\\dist\\ng-zorro-v5-experimental-view\\ && npm publish",
+        "publish": "cd .\\dist\\ng-zorro-v5-experimental-view\\ && npm publish  --access public",
         "prepublishOnly": "npm run build:production",
         "release": "standard-version && npm publish --access public",
         "watch": "ng build:development --watch --configuration development",

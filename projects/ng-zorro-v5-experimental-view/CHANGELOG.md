@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/compare/v1.8.0...v1.9.0) (2024-11-03)
+
+
+### Features
+
+* ant design v5 ([8757c0a](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/commit/8757c0ad8dbbcb77b32ec58d1d16de42c1a9c6ea))
+
 ## [1.8.0](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/compare/v1.7.0...v1.8.0) (2024-11-03)
 
 

@@ -18,7 +18,8 @@ jobs:
               id: release
               with:
                   release-type: node
-                  package-name: '@Erdhiem-UI/ng-zorro-v5-experimental-view'
+                  package-name: '@erdhiem-ui/ng-zorro-v5-experimental-view',
+                  path: 'projects/ng-zorro-v5-experimental-view'
             # The logic below handles the npm publication:
             - uses: actions/checkout@v4
               # these if statements ensure that a publication only occurs when

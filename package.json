@@ -24,7 +24,7 @@
         "start": "ng serve test-bench",
         "build:development": "ng build ng-zorro-v5-experimental-view --configuration development",
         "build:production": "ng build ng-zorro-v5-experimental-view --configuration production",
-        "publish": " npm run prepublishOnly && cd .\\dist\\ng-zorro-v5-experimental-view\\ && npm publish  --access public",
+        "publish": " npm run prepublishOnly && cd dist/ng-zorro-v5-experimental-view/ && npm publish  --access public",
         "prepublishOnly": "npm run build:production && npm run prepare-library-readme",
         "release-manually": "npx release-please release-pr --path projects/ng-zorro-v5-experimental-view",
         "watch": "ng build:development --watch --configuration development",

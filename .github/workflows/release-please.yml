@@ -19,7 +19,6 @@ jobs:
               with:
                   release-type: node
                   package-name: '@erdhiem-ui/ng-zorro-v5-experimental-view'
-                  path: 'projects/ng-zorro-v5-experimental-view'
                   monorepo-tags: true
                   debug: true
             # The logic below handles the npm publication:

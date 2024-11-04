@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/compare/v1.11.0...v1.12.0) (2024-11-04)
+
+
+### Features
+
+* github workflow ([0f37095](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/commit/0f37095f4bff484c2b96f04fb2db6a0723dad79e))
+
 ## [1.11.0](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/compare/v1.10.0...v1.11.0) (2024-11-04)
 
 

@@ -26,7 +26,7 @@
         "build:production": "ng build ng-zorro-v5-experimental-view --configuration production",
         "publish": " npm run prepublishOnly && cd dist/ng-zorro-v5-experimental-view/ && npm publish  --access public",
         "prepublishOnly": "npm run build:production && npm run prepare-library-readme",
-        "release-manually": "npx release-please release-pr --path projects/ng-zorro-v5-experimental-view",
+        "release-manually": "npx release-please release-pr",
         "watch": "ng build:development --watch --configuration development",
         "test": "ng test",
         "lint": "npm run lint:script && npm run lint:style",

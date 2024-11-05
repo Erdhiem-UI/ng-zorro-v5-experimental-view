@@ -22,7 +22,7 @@ Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5
 
 ## ☀️ License
 
-[MIT](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/LICENSE)
+[MIT](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/blob/master/LICENSE)
 
 ## 📦 Installation
 

@@ -1,6 +1,27 @@
 {
-    "name": "ng-zorro-v5-experimental-view",
-    "version": "0.0.1",
+    "name": "@erdhiem-ui/ng-zorro-v5-experimental-view",
+    "version": "1.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "description": "Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5",
+    "author": "ParsaArvaneh, ParsaArvanehPA, Parsa.arvaneh@gmail.com",
+    "keywords": [
+        "Ng-zorro",
+        "Ng zorro",
+        "Ant Design",
+        "Ant Design Version 5",
+        "Erdhiem-UI"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/issues"
+    },
+    "homepage": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view#readme",
     "peerDependencies": {
         "@angular/common": "^17.3.0",
         "@angular/core": "^17.3.0"

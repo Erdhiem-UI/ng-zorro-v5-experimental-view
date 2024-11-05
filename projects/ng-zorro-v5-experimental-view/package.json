@@ -1,6 +1,6 @@
 {
     "name": "@erdhiem-ui/ng-zorro-v5-experimental-view",
-    "version": "1.0.0-beta.0",
+    "version": "1.1.0",
     "publishConfig": {
         "access": "public"
     },

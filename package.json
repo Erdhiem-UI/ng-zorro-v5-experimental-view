@@ -53,11 +53,11 @@
         "@angular/platform-browser": "^17.0.0",
         "@angular/platform-browser-dynamic": "^17.0.0",
         "@angular/router": "^17.0.0",
-        "angular-cli-ghpages": "^2.0.3",
-        "ng-zorro-antd": "^17.0.0",
+        "@erdhiem-ui/ng-zorro-v5-experimental-view": "^1.0.0-beta.2",
         "rxjs": "~7.8.0",
         "tslib": "^2.3.0",
-        "zone.js": "~0.14.2"
+        "zone.js": "~0.14.2",
+        "ng-zorro-antd": "^17.0.0"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^17.3.10",
@@ -74,6 +74,9 @@
         "karma-jasmine": "~5.1.0",
         "karma-jasmine-html-reporter": "~2.1.0",
         "ng-packagr": "^17.3.0",
+        "typescript": "~5.2.2",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "~5.0.0",
         "prettier": "~3.1.0",
         "stylelint-config-prettier-scss": "^1.0.0",
         "stylelint-config-rational-order": "^0.1.2",
@@ -81,6 +84,6 @@
         "stylelint-config-standard-scss": "^9.0.0",
         "stylelint-order": "^6.0.3",
         "stylelint-use-logical-spec": "^5.0.0",
-        "typescript": "~5.2.2"
+        "husky": "^8.0.0",
     }
 }

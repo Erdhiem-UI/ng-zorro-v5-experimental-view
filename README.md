@@ -55,7 +55,7 @@ Using the NG-ZORRO V5 Experimental View is straightforward. Follow these steps t
 {
   "styles": [
     "node_modules/ng-zorro-antd/ng-zorro-antd.min.css", // should already exist
-    "node_modules/ng-zorro-v5-experimental-view/src/styles/ant-design-v5.css" // new
+    ""node_modules/@erdhiem-ui/ng-zorro-v5-experimental-view/src/styles/ant-design-v5.css"" // new
   ]
 }
 ```

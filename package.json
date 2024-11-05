@@ -37,7 +37,7 @@
         "lint-fix:style": "npm run lint:style -- --fix",
         "pre-commit": "tsc -p libs/tsconfig.json --noEmit && lint-staged",
         "prepare-library-readme": "node scripts/generate-library-readme.js",
-        "deploy": "ng deploy test-bench --base-href=/Erdhiem-UI/ng-zorro-v5-experimental-view/",
+        "deploy": "ng deploy test-bench --base-href=/ng-zorro-v5-experimental-view/",
         "prepare": "husky install"
     },
     "private": false,

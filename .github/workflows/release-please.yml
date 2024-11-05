@@ -23,7 +23,6 @@ jobs:
                   monorepo-tags: false
                   debug: true
                   log-level: debug
-                  release-as: 1.0.0
             # The logic below handles the npm publication:
             - uses: actions/checkout@v4
               # these if statements ensure that a publication only occurs when

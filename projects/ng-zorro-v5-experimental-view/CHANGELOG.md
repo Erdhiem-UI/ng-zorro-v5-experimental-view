@@ -1,5 +1,12 @@
 # Changelog
 
+## [21.0.0](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/compare/v1.19.0...v21.0.0) (2024-11-05)
+
+
+### Miscellaneous Chores
+
+* release 21.0.0 ([574b882](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/commit/574b8825e0b0e8a85cb09b9a3a97296a19660bca))
+
 ## [1.19.0](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/compare/v1.18.0...v1.19.0) (2024-11-05)
 
 

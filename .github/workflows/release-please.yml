@@ -20,9 +20,10 @@ jobs:
                   release-type: node
                   package-name: '@erdhiem-ui/ng-zorro-v5-experimental-view'
                   path: 'projects/ng-zorro-v5-experimental-view'
-                  monorepo-tags: false
+                  monorepo-tags: true
                   debug: true
                   log-level: debug
+                  release-as: 1.0.0
             # The logic below handles the npm publication:
             - uses: actions/checkout@v4
               # these if statements ensure that a publication only occurs when

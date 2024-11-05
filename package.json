@@ -1,8 +1,9 @@
 {
-    "name": "@Erdhiem-UI/ng-zorro-v5-experimental-view",
+    "name": "@erdhiem-ui/ng-zorro-v5-experimental-view",
     "version": "0.0.0-NOT-USED",
     "license": "MIT",
-    "description": "Ant version 5 design for ng-zorro library",
+    "description": "Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5",
+    "author": "ParsaArvaneh, ParsaArvanehPA, Parsa.arvaneh@gmail.com",
     "keywords": [
         "Ng-zorro",
         "Ng zorro",
@@ -20,11 +21,13 @@
     "homepage": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view#readme",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve",
-        "build": "ng build ng-zorro-v5-experimental-view --configuration development",
-        "prepublishOnly": "npm run build",
-        "release": "standard-version && npm publish --access public",
-        "watch": "ng build --watch --configuration development",
+        "start": "ng serve test-bench",
+        "build:development": "ng build ng-zorro-v5-experimental-view --configuration development",
+        "build:production": "ng build ng-zorro-v5-experimental-view --configuration production",
+        "publish": " npm run prepublishOnly && cd dist/ng-zorro-v5-experimental-view/ && npm publish  --access public",
+        "prepublishOnly": "npm run build:production && npm run prepare-library-readme",
+        "release-manually": "npx release-please release-pr",
+        "watch": "ng build:development --watch --configuration development",
         "test": "ng test",
         "lint": "npm run lint:script && npm run lint:style",
         "lint:script": "eslint --cache . --ext .ts,.html",
@@ -33,9 +36,13 @@
         "lint-fix:script": "npm run lint:script -- --fix",
         "lint-fix:style": "npm run lint:style -- --fix",
         "pre-commit": "tsc -p libs/tsconfig.json --noEmit && lint-staged",
+        "prepare-library-readme": "node scripts/generate-library-readme.js",
         "prepare": "husky install"
     },
-    "private": true,
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
     "dependencies": {
         "@angular/animations": "^17.0.0",
         "@angular/common": "^17.0.0",

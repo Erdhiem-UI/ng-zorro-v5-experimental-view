@@ -1,3 +1,15 @@
+<hr style="border-top: 2px solid red;">
+
+**Important Notice: Pre-Release Version**
+
+Please be advised that this document is currently in the final stages of development and is not yet ready for public use. We are actively working to ensure its accuracy and completeness, and we appreciate your patience as we finalize this release.
+
+**Do not use this document for production purposes at this time.**
+
+We will provide a formal announcement when the document is officially released.
+
+<hr style="border-top: 2px solid red;">
+
 <p align="center">
     <img width="230" src="https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg">
 </p>
@@ -29,7 +41,7 @@ Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5
 **Important:** This is an unofficial version of NG-ZORRO. It allows users of older versions based on Ant Design V4 to migrate to version 5 seamlessly.
 
 ```bash
-$ npm install erd/rrere
+$ npm i @erdhiem-ui/ng-zorro-v5-experimental-view
 ```
 
 ## 🔨 Usage
@@ -52,9 +64,9 @@ Using the NG-ZORRO V5 Experimental View is straightforward. Follow these steps t
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/pulls)
 
-We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/pulls) or as [GitHub issues](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/issues).
+We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/blob/master/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/pulls) or as [GitHub issues](https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/issues).
 
-> If you're new to posting issues, we ask that you read [_How To Ask Questions The Smart Way_](http://www.catb.org/~esr/faqs/smart-questions.html) (**This guide does not provide actual support services for this project!**), [How to Ask a Question in Open Source Community](https://github.com/seajs/seajs/issues/545) and [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) prior to posting. Well written bug reports help us help you!
+> If you're new to posting issues, we ask that you read [_How To Ask Questions The Smart Way_](https://github.com/Erdhiem-UI/How-To-Ask-Questions-The-Smart-Way/blob/master/How-To-Ask-Questions-The-Smart-Way.md) (**This guide does not provide actual support services for this project!**), [How to Ask a Question in Open Source Community](https://nsddd.top/posts/the-art-of-asking-questions-in-open-source-communities/) and [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) prior to posting. Well written bug reports help us help you!
 
 🎉 **Enjoying NG-ZORRO V5 Experimental View?**  
 **🌟 Give our repo a star!** ⭐ :arrow_up:  

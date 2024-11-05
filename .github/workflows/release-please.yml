@@ -18,6 +18,7 @@ jobs:
               id: release
               with:
                   release-type: node
+                  path: 'projects/ng-zorro-v5-experimental-view'
                   package-name: '@erdhiem-ui/ng-zorro-v5-experimental-view'
                   monorepo-tags: true
                   debug: true

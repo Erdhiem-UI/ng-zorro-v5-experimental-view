@@ -1,8 +1,0 @@
-{
-    "packages": {
-        "projects/ng-zorro-v5-experimental-view": {
-            "release-type": "node",
-            "package-name": "@erdhiem-ui/ng-zorro-v5-experimental-view"
-        }
-    }
-}

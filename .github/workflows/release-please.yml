@@ -2,6 +2,7 @@ on:
     push:
         branches:
             - master
+    workflow_dispatch: # Enables manual triggering
 
 permissions:
     contents: write
@@ -17,20 +18,25 @@ jobs:
               id: release
               with:
                   release-type: node
-                  path: 'projects/ng-zorro-v5-experimental-view'
                   package-name: '@erdhiem-ui/ng-zorro-v5-experimental-view'
+                  path: 'projects/ng-zorro-v5-experimental-view'
                   monorepo-tags: true
                   debug: true
                   log-level: debug
             # The logic below handles the npm publication:
-            - uses: actions/checkout@v4
-              # these if statements ensure that a publication only occurs when
-              # a new release is created:
+            - uses:
+                  actions/checkout@v4
+                  # these if statements ensure that a publication only occurs when
+                  # a new release is created:
+              if: ${{ steps.release.outputs.release_created }}
             - uses: actions/setup-node@v4
               with:
                   node-version: 'lts/*'
                   registry-url: 'https://registry.npmjs.org'
+              if: ${{ steps.release.outputs.release_created }}
             - run: npm ci
+              if: ${{ steps.release.outputs.release_created }}
             - run: npm publish
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+              if: ${{ steps.release.outputs.release_created }}

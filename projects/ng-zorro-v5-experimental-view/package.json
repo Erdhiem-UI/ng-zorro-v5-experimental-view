@@ -1,6 +1,6 @@
 {
     "name": "@erdhiem-ui/ng-zorro-v5-experimental-view",
-    "version": "1.0.0-beta.2",
+    "version": "1.0.0-beta.3",
     "publishConfig": {
         "access": "public"
     },
@@ -22,12 +22,5 @@
         "url": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view/issues"
     },
     "homepage": "https://github.com/Erdhiem-UI/ng-zorro-v5-experimental-view#readme",
-    "peerDependencies": {
-        "@angular/common": "^17.3.0",
-        "@angular/core": "^17.3.0"
-    },
-    "dependencies": {
-        "tslib": "^2.3.0"
-    },
     "sideEffects": false
 }

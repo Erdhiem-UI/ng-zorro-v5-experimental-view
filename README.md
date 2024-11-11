@@ -30,6 +30,7 @@ Reimagining NG-ZORRO: Your Unofficial Path to Ant Design V5
 
 -   **Unofficial Implementation of Ant Design V5:** Experience the latest features and improvements while still using NG-ZORRO.
 -   **Compatibility with NG-ZORRO V4 Components:** All components from NG-ZORRO based on Ant Design V4 are designed to be compatible, ensuring a smooth transition.
+-   **Version Flexibility:** This package is not dependent on a specific version of NG-ZORRO, so you can use it even if you're on versions 13, 14, or beyond.
 -   **User-Friendly:** Designed with simplicity in mind, making it easy to integrate and use in your projects.
 
 ## ☀️ License
